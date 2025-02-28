@@ -50,6 +50,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AttractionBlock.cs" />
+        <Compile Include="AttractionBlockBehaviour.cs" />
+        <Compile Include="AttractionBlockFactory.cs" />
+        <Compile Include="AttractionBlockManager.cs" />
+        <Compile Include="AttractionVelocityUpdateBehaviour.cs" />
+        <Compile Include="IAttractionBlockQuery.cs" />
         <Compile Include="ModEntry.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
